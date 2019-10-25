@@ -1,0 +1,23 @@
+1. Hours to complete the project: ... hours
+72 hours
+
+2. Provide a short description of how you approached each problem, issues you 
+   encountered, and how you resolved those issues.
+
+   Problem 1 (Model a Percolation System): ...
+      First I read the problem carefully and internalize all the information on the text. Then I started thinking about the problem. After the thinking process. I started question my self if I need to use loops or instance variables. Then after this step, The checklists (hints) came into handy since It alleviated all the confustions about whether I need instance variables and the purpose of each method. My problem started on the isFull method; this method challenged me a lot since I was confused about how to create the sink and source variables. But connecting sink and source was the major problem at the end and I resolved this issue by analyzing the code line by line and see if it makes some sense. It also prevented me from using codes on a wrong spot that would have caused the program to crash or not work properly. Overall, project 1 was a success. It really challenged my brain on figuring it out and thinking in the java world. 
+   Problem 2 (Estimate Percolation Threshold): ...
+      I will say this one is the most straightforward problem from the project since you have more than 60 % of the project on the Percolation problem. This problem only needs a small knowledge in math and thinking about how to use loops and classes in order to perform different feats in java. It challenged my prior knowledge in objects in java. I never used loops and objects but I was familiar with objects and conditionals so it taught me how objects come in handy when doing a big project or program. Overall, problem 2 was also a success with little failures on the way. 
+3. Did you receive help from anyone? List their names, status (classmate, 
+   CS210 grad, TA, other), and the nature of help received.
+No one
+   Name               Status       Help Received
+   ----               ------       -------------
+
+   ...                ...          ...
+
+4. List any other comments here. Feel free to provide any feedback on how
+   much you learned from doing the assignment, and whether you enjoyed
+   doing it.
+     I learned how to work with objects and method. I learned how to choose the most efficient algorithm on solving problems. I learned that big projects in programming need more time than expected. 
+   ...

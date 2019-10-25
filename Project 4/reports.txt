@@ -1,0 +1,25 @@
+1. Hours to complete the project: ... hours
+21.5 hr
+2. Provide a short description of how you approached each problem, issues you 
+   encountered, and how you resolved those issues.
+
+   Problem 1 (Autocomplete Term): ...
+      This problem is quite straight forward one of the rest of the problems in this project. First, I read the question till I internalize it. Then, try to write all the instructions and requirements from the instruction. After this step I started reading the checklist for the project despite the fact that I knew which method concerned with which variable and what instance variables I need. But I used the checklist to confirm my assumption. 
+      The problem I encountered during the process of building Term program was making query show up in lexicographical order. This was the toughest task than listing the weights in descending order. I came up with many solutions but none of them worked then I decided to start a new way to fix it. I started using strings since query were strings since I thought the first time I only need to compare two instance variables with comparing operator. 
+   Problem 2 (Binary Search Deluxe): ...
+      This problem is thougher than problem 1 since it requires me to use a binary search which I forgot the notes I took on classroom about binary search. I knew binary search in the past but it did not hit home with respect to this problem. I searched everywhere to find binary search algorithm and review my knowledge on it. Then I was comfortable working with binary search, I read the question for problem 2 and internalize it once again. Then I read the checklist in order to know what instance varible or arguments I need and assign to the variables. I used the regular binary search algorithm and incorporate the requirements of this binary search with regular binary search and I was done with it. The nice thing about this problem this problem is that we don't need to use a constructor. If we were about to use a constructor this problem would have been another story since I had to read notes to even understand and able to use binary search. 
+   Problem 3 (Autocomplete): ...
+   This problem is the one that I said, "there is still a code left, oh man" not because the length of the code but the obscurity of using codes that I had to debug later in the problem. The constructor for this problem was straight forward just follow the instruction and checklist, I was done despite the fact that I had to use the most efficient sorting algorithm which in my case is Quick3way. Therefore, I imported this algorithm and used it inside my constructor to get the approximation of the time running for the code which is NlogN. The harder part about his problem was using binary search from program 2 in order to get first index and last index. I don't think I had the problem solving the rest of this problem. But fascinating fact about each problems was that the first time I see any problem, my brain shuts down and I would read the question like 20 times and think of a code and nothing comes so I give it a rest to make the solution come to me. 
+3. Did you receive help from anyone? List their names, status (classmate, 
+   CS210 grad, TA, other), and the nature of help received.
+
+   Name               Status       Help Received
+   ----               ------       -------------
+
+   ...                ...          ...
+
+4. List any other comments here. Feel free to provide any feedback on how
+   much you learned from doing the assignment, and whether you enjoyed
+   doing it.
+        Overall, the project was very good. I learned to many things from the problem. I learned how to use binary search which is the most efficient searching algorithm in my case. I learned how to debug problems effectively. I learned the easier way to approach a problem is ruminating the question many times so you have a good understanding what the question specifically asking. I learned how to use quick three way sorting algorithm despite fact that I was allowed to use array.sort() method to sort the array. I learned that we can emulate a visual software of a code on bash terminal window which in the past I needed to use some kind of IDE like visual studio or eclipse but I learned java supports a good graphics. 
+   ...

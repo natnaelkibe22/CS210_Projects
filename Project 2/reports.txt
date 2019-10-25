@@ -1,0 +1,24 @@
+1. Hours to complete the project: ... hours
+20.5 hours
+2. Provide a short description of how you approached each problem, issues you 
+   encountered, and how you resolved those issues.
+
+   Problem 1 (Deque): First, I read the whole problem carefully and internalized into my brain. Then, I started to read the behaviour of Queues on the notes of the data structures. I applied the examples on that note to formulate remove from the head and tail problems. But adding to back or front was discussed during lecture so I used that knowledge to add queues at front and back of the nodes. I also used the knowledge of iterables and iterators. I had a problem implementing these ADTs so I had to go back to the basics of iterators. I used a drawing of the nodes in order to solve some issues during the whole process of this program. 
+
+   Problem 2 (Random Queue): In order to approach this problem, I had to read the notes very carefully to see how Queue APIs work with Arrays. One of the problems throughout the problems was getting exceptions. Trying to debug, exceptions like NullPointer was very tougher than I thought since everything was assigned as a variable so I did not know which segment of the code causes this exception. One of the problem I encountered was warning about checks so I had to research online to suppress that unwanted checks. Some of the small problem I encountered was naming variable same as the parameters inside the method and I have to find all the variable names and fix them up. 
+
+   Problem 3 (Subset): This program is the most straightforward problem since it only ask for implementing the client program. I only followed the instructions and the project checklist inorder to solve this problem. I did not find any problems thoughout the process of this program unlike the other problems in this project. 
+   
+3. Did you receive help from anyone? List their names, status (classmate, 
+   CS210 grad, TA, other), and the nature of help received.
+  No
+   Name               Status       Help Received
+   ----               ------       -------------
+
+   ...                ...          ...
+
+4. List any other comments here. Feel free to provide any feedback on how
+   much you learned from doing the assignment, and whether you enjoyed
+   doing it.
+    This project was less puzzly than the first one. This project was straightforward in a sense that it only asks to use our knowledge about basic data structures in order to solve the problems. I will say keep up posting projects like this one that asks to use our knowledge rather than our critical or reasoning skills. It will be prefereable to do project like this one that asks our application of the knowledge we learned and do a harder or problem solving project at the end of the course. Overall, this project was a success and I hope to succeed on project 3. 
+   ...

@@ -1,0 +1,30 @@
+1. Hours to complete the project: ... hours
+      around 59 hours. 
+2. Provide a short description of how you approached each problem, issues you 
+   encountered, and how you resolved those issues.
+
+   Problem 1 (Brute-force Implementation): 
+     Problem 1 was a quite straight forward problem but when I started reading about it, I thought it was harder. Then, I started writing all the given informations and what I needed to solve the problem efficiently. One of the problem with this problem was that I couldn't figure out what instance variable to use till I read the checklist. I even thought the interface was the instance variable but I knew that if I used that it would have created the problem with instantiating a new object where interface don't support implementations. The checklist file gave me everything I needed to solve the problem. 
+     I thought I had to write my own codes to solve for the redblackbst of put, get and contains method. Then, I realized the program it self inheritted the whole package of redblackbst which gave me a clarity on what I had to do to each problem. I just used the bst.get(), bst.put() and bst.keys() functionality inorder to implement the get(), put() and key() method. But later I had implemented my own code using the RecHV to return points that are contained inside a given rectangle.
+I used a queue api and contains method from RectHV api (RectHV.contains(Key)) and enqueued the keys that are contained inside RecHV which is quite straight forward. 
+     But nearest() method was not quite straightforward as I thought especially the second method with two arguments. The first nearest() with one argument was straightforward since I just had to use queue api and iterate over the keys to enqueue
+the points that are less than the previous minimum key and returning the minimum point. The second method needed more thinking to solve it since nearest k points was tougher than I thought. I even tried a recursion and enqueing the keys that are k amount nearest to the Point2D p. Then I read the packages that were imported and I saw the MinPQ and it gave me an easier approach to solve this method. I used MinPQ<Double> to store all the euclidean distances and used another symbol table I imported to store euclidean distance and associated with points (ST<Double, Point2D>). Then I iterated over the 
+redblackbst to add distances to minpq at the same time to the symbol table that were different from the Point2D p. Then I printed nearest k points by using this code que.enqueue(st.get(distance.delMin(Key))). Then I returned the the queue which printed all possible k points nearest to given point.
+    Overall, problem one was quite straightforward and easy to solve with little thinking. I hope this will be the same for problem 2. 
+
+   Problem 2 (2d-tree Implementation):
+    Problem 2 is one of the hardest problem I have ever encountered. Its complexity makes it harder than algorithm. I have encountered a lot of errors. The first one was trying to understand the problem itself which takes hours and hours of reading the same problem. Initializing the instance variables and some methods was not as hard as I thought. But the problem started when I started to code the put method where it created a lot of complications and errors which costed me three day worth of time to fix it. The simplest line of code could create a major error for the later problems like range(), points, and nearest(). Despite the fact that I have not solved nearest neighbors and k nearest neighbours despite my research and understanding of the problem. I have not came to the solution despite my 5 days spent on this problem. It really discouraged me for not solving this problem. But later I realized that the problem is still on the put method despite the fact that it seems to work fine when printing the points in level order which was the first problem I encountered previously. But I think I have not grasped or it was explained on the checklist or project question the importance of rectHV api since it created a lot of issues later on the problems. I had to research on my own on what the initial values of each nodes react is for example I have come to understanding that if I used new RectHV(0,0,0,0) the answer for the range does not work or it does not satisfy the pruning but if I used RectHV(0,0,1,1) it seemed to work despite. How to set or assign the RectHV was not explained fully on the problem itself which created a lot of issues and costed me more hours. 
+     At last, I have solved the nearest neighbour search but not the kNN (k nearest neighbour) which is one of the the toughest and took me many hours of thinking.
+     This project was unsuccessful.    
+3. Did you receive help from anyone? List their names, status (classmate, 
+   CS210 grad, TA, other), and the nature of help received.
+No one
+   Name               Status       Help Received
+   ----               ------       -------------
+
+   ...                ...          ...
+
+4. List any other comments here. Feel free to provide any feedback on how
+   much you learned from doing the assignment, and whether you enjoyed
+   doing it.
+     This project is one of the hardest project. I feel so bad for not solving it. I feel like some of the implemenations were not explained fully on the problem like RectHV which took a large role on solving portion of the problem 2. I feel like if the RectHV was explained on chekclist or project question, I could have solved problem 2 without any issues. I tried everything, it just did not seem to work which discouraged me and caused me to rethink why I majored in computer science in the first place.
